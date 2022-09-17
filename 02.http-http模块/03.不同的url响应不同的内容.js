@@ -15,7 +15,7 @@ server.on('request', (req, res) => {
     res.setHeader('Content-type', 'text/html;charset=utf-8');
     // 响应
     res.end(content);
-})
+});
 // 启动服务器
 server.listen(80, () => {
     console.log('服务器运行在8099端口...');
