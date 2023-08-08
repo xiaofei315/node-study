@@ -20,7 +20,7 @@ class Mysql {
             pool.query('SELECT * from user', function (error, results, fields) {
                 if (error) {
                     throw error
-                };
+                }
                 resolve(results)
                 // console.log('The solution is: ', results[0].solution);
             });

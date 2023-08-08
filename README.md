@@ -15,7 +15,7 @@ FLUSH PRIVILEGES;
 
 `win + x`  --> 终端管理员
 
-`net start`
+`net start` 
 
 `net stop MySQL`
 
